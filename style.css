@@ -1,0 +1,46 @@
+body{
+
+    background-image:url("https://images.unsplash.com/photo-1778668750300-fa6ff2d40be2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxN3x8fGVufDB8fHx8fA%3D%3D");
+    margin:0;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+.container{
+    width:400px;
+    padding:20px;
+    border-radius:15px;
+    box-shadow: 0px 0px 10px;
+     backdrop-filter: blur(10px);
+      background:rgba(255,255,255,0.2);
+    
+
+}
+.Form-box input{
+   margin: 10px ;
+   width: 50%;
+   box-sizing: border-box;
+   padding: 4px;
+   
+}
+.Form-box button{
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.Form-box button:hover{
+    transform: scale(1.1);
+}
+#category{
+    border-radius: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+#expense-list li{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px ;
+    
+
+}
